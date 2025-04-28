@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "typeRoots": ["./node_modules/@types", "./src"]
+
+  },
+  "include": ["src", "gatsby-browser.tsx", "gatsby-config.ts", "gatsby-ssr.tsx", "src/**/*", "src/styled.d.ts"
+]
+}

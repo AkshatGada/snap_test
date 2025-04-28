@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "description": "Gas + Bridge Snap",
+  "proposedName": "gas-estimation-bridge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "location": {
+      "npm": {
+        "packageName": "snap",
+        "filePath": "dist/bundle.js",
+        "registry": "https://registry.npmjs.org"
+      }
+    },
+    "shasum": "4WvOhkS0wQkdBvV1eE51wFc2C3N4vMgjS0seEEYGA7o="
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:page-home": {},
+    "endowment:transaction-insight": {},
+    "snap_notify": {},
+    "snap_manageState": {},
+    "endowment:network-access": {},
+    "endowment:ethereum-provider": {}
+  },
+  "platformVersion": "6.18.0",
+  "manifestVersion": "0.1"
+}
